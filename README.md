@@ -4,22 +4,17 @@
 class JavaBasics{
      public static void main(String[] args){
         System.out.println("Hello World!!\n");
-    
-
-        System.out.println("is an");
+      System.out.println("is an");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         int product = a*b;
-        System.out.println(product);
-    
+        System.out.println(product);   
     float N = sc.nextInt();
     System.out.println("ok");
-
         float m = sc.nextFloat();
         int m2 = (int) m;
-        System.out.println(m2);
-    
+        System.out.println(m2);  
         int O = 01;
         int L= 10;
         System.out.println("Addition of a & b is :"+(O+L));
@@ -30,32 +25,24 @@ import java.util.Scanner;
 class JavaBasics {
     public static void main(String[] args) {
         System.out.println("Hello World!!\n");
-
         System.out.println("is an");
-
         Scanner sc = new Scanner(System.in);
-
         // Taking two integers
         int a = sc.nextInt();
         int b = sc.nextInt();
-
         int product = a * b;
         System.out.println("Product: " + product);
-
         // Taking a float input
         float N = sc.nextFloat();
         System.out.println("ok"+N);
-
         // Taking another float and typecasting
         float m = sc.nextFloat();
         int m2 = (int) m;
         System.out.println("Typecasted int: " + m2);
-
         // Simple addition
         int num1 = 1;
         int num2 = 10;
         System.out.println("Addition of num1 & num2 is: " + (num1 + num2));
-
         sc.close(); // Always good to close the Scanner
     }
 }*/
@@ -118,7 +105,6 @@ public class JavaBasics {
         while(i<=n){
             sum+= i;
             i++;
-
         }
         System.out.println("The sum of n natural numbers is :"+sum);
         for(int i=1;i<=9; i++){
@@ -144,7 +130,6 @@ public class JavaBasics {
             int d = n%10;
              rev = (rev * 10) + d;
             n=n/10;
-
         }System.out.println(rev);
         int i =1;
         do{
@@ -163,10 +148,8 @@ public class JavaBasics {
         i++;
        }
        while(i<=10);
-
        Scanner sc = new Scanner(System.in);
-       do{
-        
+       do{    
         int n = sc.nextInt();
         if(n%10 == 0){
             break;
@@ -178,7 +161,6 @@ public class JavaBasics {
         if(i==3)
             continue;
                    System.out.println(i);
-
        }
       Scanner sc = new Scanner(System.in);
       do{
@@ -187,7 +169,6 @@ public class JavaBasics {
         if(n%10 == 0){
             continue;
             }            System.out.println("Number was "+n);
-
         }
         while(true);
         Scanner sc = new Scanner(System.in);
@@ -208,7 +189,6 @@ public class JavaBasics {
                 else{
                     System.out.println(+n+"is not a prime number");
                 }
-            
             }
             //Reverse star pattern
         for(int i =1; i<=4;i++){
@@ -242,8 +222,7 @@ public class JavaBasics {
             int sum = a+b;
             System.out.println("Sum of a and b is:"+sum);
         }*/
-        
-            public static void main(String args[]){
+                   public static void main(String args[]){
                 /*  print();
                 cal(3, 8);*/
 
